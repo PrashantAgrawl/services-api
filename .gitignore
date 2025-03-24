@@ -1,0 +1,9 @@
+# Logs
+services.log
+
+# Binaries
+*.exe
+*.out
+
+# Dependency directories
+vendor/
