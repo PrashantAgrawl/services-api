@@ -31,7 +31,7 @@ func main() {
 	}
 	log.Info(ctx, "Database initialized successfully")
 
-	db.SeedData(ctx, database, log)
+	//db.SeedData(ctx, database, log)
 
 	// Create repository
 	repo := repository.NewServiceRepository(database, log)
